@@ -7,11 +7,7 @@ function factoriel(n) {
     }
 }
 for (let i = 0; i < 1000; i++) {
-<<<<<<< HEAD
     const operateur = prompt("Entrez un operateur (+, -, *, /, ^, >,!) : ");
-=======
-    const operateur = prompt("Entrez un operateur (+, -, *, /, ^, >) : ");
->>>>>>> e56e2765395a705fb82ec660eb50ae19adc029b3
 
         switch (operateur) {
             
@@ -42,11 +38,7 @@ for (let i = 0; i < 1000; i++) {
                 break;
         
             case '^':
-<<<<<<< HEAD
                 num1 = prompt("Entrez un nombre : ");
-=======
-                 num1 = prompt("Entrez un nombre : ");
->>>>>>> e56e2765395a705fb82ec660eb50ae19adc029b3
                 num2 = prompt("Entrez un autre nombre : ");
                 console.log(`resultat : ${Math.pow(num1, num2)}`);
                 break;
@@ -59,15 +51,12 @@ for (let i = 0; i < 1000; i++) {
                     console.log(`resultat : ${Math.sqrt(num1)}`);
                 }
                 break;
-<<<<<<< HEAD
 
             case '!': 
                  num1 = prompt("Entrez un nombre : ");
                  num1 = parseInt(num1);
                 console.log(`Resultat : ${factoriel(num1)}`);
                 break;
-=======
->>>>>>> e56e2765395a705fb82ec660eb50ae19adc029b3
         
         default:
             console.log("Opérateur invalide !");
